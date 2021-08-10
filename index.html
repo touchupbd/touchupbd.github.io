@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+	<meta name="generator" content="Hugo 0.84.4" />
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<script>
+
+			$(document).ready(function () {
+
+
+				let header = document.getElementById("title-n");
+				let main = document.getElementById("main");
+				let touch = document.getElementById("touch-up");
+
+				touch.classList.add("vis-f")
+				touch.classList.remove("vis-t")
+
+				let sticky = header.offsetTop-5;
+				console.log(sticky)
+
+
+				window.onscroll = function() {myFunction()};
+
+
+				function myFunction() {
+
+					if (window.pageYOffset > sticky) {
+						header.classList.add("fixed-header");
+						main.classList.add("fixed-header-pad");
+						touch.classList.add("vis-t")
+						touch.classList.remove("vis-f")
+					} else {
+						header.classList.remove("fixed-header");
+						main.classList.remove("fixed-header-pad");
+						touch.classList.add("vis-f")
+						touch.classList.remove("vis-t")
+					}
+				}
+
+			});
+
+		</script>
+
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+		</style>
+
+				<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="icon" href="https://touchupbd.github.io/images/logo.png" />
+
+		<meta property='og:title' content='Touch Up'/>
+		<meta property='og:image' content='https://touchupbd.github.io/images/thumb.jpg'/>
+		<meta property='og:description' content='Buy your watch @ lowest price'/>
+		<meta property='og:url' content='https://www.facebook.com/glam.touchup'/>
+		<meta property='og:image:width' content='460' />
+		<meta property='og:image:height' content='572' />
+		
+		<meta property="og:type" content='website'/>
+		<meta property="fb:app_id" content='2755577718045456'/>
+
+
+		<style>
+		body {
+		background: #f9f9f9;
+		color: ;
+		}
+		</style>
+		<link rel="stylesheet" type="text/css" href="https://touchupbd.github.io/css/default.css" />
+		<link rel="stylesheet" type="text/css" href="https://touchupbd.github.io/css/component.css" />
+		
+		<script src="https://touchupbd.github.io/js/modernizr.custom.js"></script>
+
+		
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YC6RYJDQN7"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-YC6RYJDQN7');
+		</script>
+
+		<title>Touch Up</title>
+
+		
+	</head>
+
+	<body style="background-color: #F9F8F6">
+
+
+	<div class="container">
+							<header class="clearfix">
+				<h1><a href="/">Touch Up</a><span>Beauty within Budget</span></h1>
+			</header>
+
+		
+		<img id="watch_image" style="visibility: hidden; position: absolute; float: left; left: 10px; width: 300px; height: 348px;" src="//fossil.scene7.com/is/image/FossilPartners/BQ2401_main?$sfcc_fos_large$"/>
+
+			<div class="main">
+
+				<br>
+				<br>
+
+				<ul style="width: 100%; text-align: center; position: absolute">
+
+					<li class="land_li">
+						<a href="/fossil">
+							<div>
+								<b><span style="color: red">50% extra off</span></b>
+							</div>
+							<div>
+								<img style="height: 25px" src="https://touchupbd.github.io/images/fs.svg">
+							</div>
+							<div>
+								<b><span style="color: brown; font-size: 9pt">Hurry while stocks last</span></b>
+							</div>
+						</a>
+					</li>
+				<br><br>
+					<li class="land_li">
+						<a href="/watchstation">
+							<div>
+								<b><span style="color: white">50% extra off</span></b>
+							</div>
+							<div >
+								<img style="height: 25px" src="https://touchupbd.github.io/images/ws.svg">
+							</div>
+							<div>
+								<b><span style="color: white; font-size: 9pt">Hurry while stocks last</span></b>
+							</div>
+						</a>
+					</li>
+
+					<br><br>
+					<br><br>
+
+				</ul>
+
+
+
+
+
+				<footer>			
+	
+</footer>
+			</div>
+	</div>
+
+	</body>
+</html>
+
